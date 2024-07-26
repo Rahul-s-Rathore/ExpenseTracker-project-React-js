@@ -1,0 +1,31 @@
+.expenses{
+    padding: 1rem;
+    background-color: rgb(31,31,31);
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+display: flex;    
+flex-direction: column;
+min-height: 150px;
+position: relative;
+}
+.download-icon {
+    width: 24px; /* Adjust the size as needed */
+    height: 24px; /* Adjust the size as needed */
+    filter: invert(100%);
+    color: white;
+    cursor: pointer;
+  }
+.download-button{
+  position: absolute;
+  right: 8px;
+  top: 8px;
+      align-self:flex-end;
+      margin-right: 2px;
+  }
+  span{
+    text-align: center;
+  }
+  /* .remove{
+    display: none;
+} */

@@ -1,0 +1,16 @@
+.expense-item__date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(105, 135, 164);
+    width: 7rem;
+    height: 7rem;
+    border-radius: 12px;
+    margin-right: 15px;
+    font-weight: bold;
+    
+}
+.day{
+    font-size: 3rem;
+}
